@@ -11,11 +11,12 @@ public:
             if(st.find(nums[i])==st.end()){
                 temp.push_back(nums[i]);
                 st.insert(nums[i]);
+
                 permu(temp,result,nums,st);
+
                 temp.pop_back();
                 st.erase(nums[i]);
             }
-
         }
 
     }
