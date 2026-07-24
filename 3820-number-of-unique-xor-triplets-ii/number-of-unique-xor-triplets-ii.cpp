@@ -20,7 +20,8 @@ public:
         int maxel= *max_element(begin(nums),end(nums));
         int t=1;
         while(t<=maxel){
-            t*=t*2;
+            // t*=t*2;
+            t*=t<<1;
         }
         vector<bool>s1(t,false);
         vector<bool>s2(t,false);
