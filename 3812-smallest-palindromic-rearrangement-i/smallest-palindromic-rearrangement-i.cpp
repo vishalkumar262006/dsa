@@ -10,7 +10,6 @@ public:
         string ans;
         if(n%2==0){
             ans=a+b;
-
         }
         else{
             ans=a+s[mid]+b;
