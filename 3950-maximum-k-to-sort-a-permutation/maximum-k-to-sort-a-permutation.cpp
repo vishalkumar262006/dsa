@@ -12,6 +12,5 @@ public:
         }
     }
     return k==-1?0:k;
-       
     }
 };
